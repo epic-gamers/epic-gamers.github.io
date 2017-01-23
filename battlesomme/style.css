@@ -1,0 +1,167 @@
+body {
+   background:#000000;
+}
+.mySlides {
+	max-width:100%;
+	height:450px;
+}
+img.logo {
+	width:100%;
+	height:200px;
+	margin-left:10%;
+	margin-right:10%;
+}
+section {
+	width:20%;
+	height:200px;
+	margin-top:20px;
+	background-color:#ffffff;
+	background-position:center;
+	float:left;
+}
+header {
+	width:75%;
+	height:200px;
+	margin-top:20px;
+	margin-left:4%;
+	float:left;
+}
+img.h {
+	width:45%;
+	height:210px;
+	margin-left:2.5%;
+	margin-right:2.5%;
+}
+aside {
+	width:100%;
+	height:250px;
+	background:#ffffff;
+	float:left;
+}
+nav { 
+	width:16.5%; 
+	height:400px; 
+	background:black; 
+	margin-top:30px; 
+	margin-left:3.5%;
+	float:left;
+	text-align:center;
+}
+div {
+	width:60%;
+	height:460px;
+	margin-right:2%;
+	border:5px solid black;
+	float:right;
+}
+a.mainnav { color:white;
+    font-size:1.5em;
+    margin-left:15px;
+    font-family:Lucida Sans Unicode;
+    text-decoration:none;
+}
+a.mainnav:hover {
+    position: relative;
+}
+
+a.mainnav:hover:after {
+    content: url(logob.png);
+    display: block;
+    position: absolute;
+    left: 100px; /* change this value to one that suits you */
+    top: -5px; /* change this value to one that suits you */
+}
+footer {
+	background:#ffffff;
+	height:40px;
+	position:fixed;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+
+#leftfoot { 
+	color:#000000;
+	float:left;
+	width:45%;
+	text-align:left;
+	padding-left:15px;
+}
+.fb {
+	width:10%;
+	height:30px;
+	margin-top:-10px;
+}
+#rightfoot { 
+	color:#000000;
+	line-height:20px;
+    font-size:12px;
+	float:right;
+	width:45%;
+	text-align:right;
+	padding-right:15px;
+}
+img.title {
+	width:600px;
+	height:225px;
+}
+img.gallery {
+	width:100px;
+	height:100px;
+}
+/* the elements above and below this comment are what make the images in the gallery spin*/
+.gallery:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+p.services {
+	font-family: "Times New Roman", Times, serif;
+	color:white;
+	font-size:30px;
+    text-shadow: 2px 2px grey;
+}
+/* these three p elements have the different creative font families*/
+p.contact {
+	font-family: Georgia, serif;
+	color:white;
+	font-size:20px;
+    text-shadow: 2px 2px grey;
+	margin-left:50px;
+	float:left;
+
+}
+p.contact2 {
+	font-family: Georgia, serif;
+	color:white;
+	font-size:20px;
+    text-shadow: 2px 2px grey;
+	margin-left:350px;
+}
+p.about {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:white;
+    text-shadow: 2px 2px grey;
+	font-size:19px;
+}
+audio { width: 100px; }

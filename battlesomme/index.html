@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Battle of the Somme</title>
+<meta charset="UTF-8">
+<meta name="description" content="the battle of the somme was a terrible fight in which many people died">
+<meta name="keywords" content="War, Death, Suffering, Somme, Battle of the Somme, WW1, WWI, World War One, World War 1">
+<meta name="author" content="Owen Burns">
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="stylesheet" href="w3schools.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<aside>
+<section>
+<a href="index.html"><img src="logo.jpg" class="logo"></a>
+</section>
+<header>
+<img src="10.jpg" class="h"><img src="5.jpg" class="h"><!--These are my two improvements to thwe templates-->
+</header>
+</aside>
+
+<nav>
+<a href="index.html" class="mainnav">Home</a>
+<hr>
+<a href="about.html" class="mainnav">About</a>
+<hr>
+<a href="fastfacts.html" class="mainnav">Fast Facts</a>
+<hr>
+<a href="gallery.html" class="mainnav">Gallery</a>
+<hr>
+<a href="thesisandsources.html" class="mainnav">Thesis and Sources</a>
+</nav>
+<div class="w3-content w3-section">
+  <img class="mySlides w3-animate-left" src="slide1.jpg">
+  <img class="mySlides w3-animate-left" src="slide2.jpg">
+  <img class="mySlides w3-animate-left" src="slide3.jpg">
+  <img class="mySlides w3-animate-left" src="slide4.jpg">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+</script>
+
+<footer>
+<p id="leftfoot">
+
+</a></p>
+<p id="rightfoot">
+
+</footer>
+
+</body>
+</html>
